@@ -1,0 +1,11 @@
+{
+  "name": "demo-login-app",
+  "version": "1.0.0",
+  "description": "Demo app with intentional login bug for SightFix evaluation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/login.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

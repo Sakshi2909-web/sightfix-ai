@@ -1,0 +1,8 @@
+[2026-10-22T14:15:02.104Z] [INFO] User navigated to /login
+[2026-10-22T14:15:05.321Z] [DEBUG] Input change: email="test@sightfix.dev"
+[2026-10-22T14:15:08.892Z] [DEBUG] Input change: password="••••••••"
+[2026-10-22T14:15:10.450Z] [INFO] Form submission initiated
+[2026-10-22T14:15:10.455Z] [ERROR] Uncaught TypeError: Cannot read properties of undefined (reading 'token')
+    at handleSubmit (src/auth/LoginForm.jsx:18:22)
+    at HTMLFormElement.dispatch (node_modules/react-dom/cjs/react-dom.production.min.js:82:12)
+    at invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.production.min.js:237:16)

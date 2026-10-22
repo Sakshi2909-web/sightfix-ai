@@ -1,0 +1,15 @@
+{
+  "benchmark_name": "sightfix-benchmark-v1",
+  "samples": [
+    {
+      "id": "sample-01-login-unresponsive",
+      "repo_name": "demo_repo_login_bug",
+      "gold_files": ["src/auth/LoginForm.jsx"],
+      "gold_functions": ["handleSubmit"],
+      "title": "Sign in button unresponsive when submitting login form",
+      "description": "Clicking 'Sign in' does nothing when credentials are entered. The button stays active or disabled without any loading state or transition, and console shows TypeError.",
+      "logs_path": "sample_data/logs/console.log",
+      "screenshot_path": "sample_data/screenshots/login_unresponsive.png"
+    }
+  ]
+}
